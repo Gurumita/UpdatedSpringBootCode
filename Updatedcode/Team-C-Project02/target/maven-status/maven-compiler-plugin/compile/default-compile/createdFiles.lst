@@ -1,0 +1,7 @@
+com\example\demo\Controller\UserController.class
+com\example\demo\Project02SpringbootApplication.class
+com\example\demo\Service\UserService.class
+com\example\demo\Repository\UserRepository.class
+com\example\demo\Config\WebConfig.class
+com\example\demo\Models\User.class
+com\example\demo\Enums\Role.class

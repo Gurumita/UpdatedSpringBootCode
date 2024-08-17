@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: com.example.demo.UserMockitoTest.UserServiceTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 1.878 s <<< FAILURE! -- in com.example.demo.UserMockitoTest.UserServiceTest
+com.example.demo.UserMockitoTest.UserServiceTest.testGetAllUsers -- Time elapsed: 0.068 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <0>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:531)
+	at com.example.demo.UserMockitoTest.UserServiceTest.testGetAllUsers(UserServiceTest.java:109)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+com.example.demo.UserMockitoTest.UserServiceTest.testAssignAccessLevel_RoleNotChanged -- Time elapsed: 0.027 s <<< ERROR!
+java.lang.RuntimeException: User not found
+	at com.example.demo.Service.UserService.assignAccessLevel(UserService.java:119)
+	at com.example.demo.UserMockitoTest.UserServiceTest.testAssignAccessLevel_RoleNotChanged(UserServiceTest.java:133)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
